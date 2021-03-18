@@ -1,0 +1,11 @@
+@media screen and (max-width: 519px) {
+    .half-container { 
+        display: block;
+        &__half-co {
+            width: 100%;
+            &:first-of-type {
+                margin-bottom: 34px;
+            }
+        }
+    } 
+}
